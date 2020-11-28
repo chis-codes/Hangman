@@ -1,3 +1,6 @@
+# wordGenerator.py
+# module for returning a random word to caller using function gen()
+
 import random
 
 words = [
