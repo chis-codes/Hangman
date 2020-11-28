@@ -1,4 +1,4 @@
-import string 
+import wordGenerator
 
 # checkForLetter
 # iterates through 'word' to check if the letter 'char' exists
@@ -9,3 +9,4 @@ def checkForLetter(word, char):
             return True
     return False
 
+print(wordGenerator.gen())
